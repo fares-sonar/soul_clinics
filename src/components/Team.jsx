@@ -1,14 +1,6 @@
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 function Team() {
-  useEffect(() => {
-      AOS.init({
-        duration: 500,
-        easing: "ease-in-out",
-      });
-    }, []);
+
   return (
     <div className=" py-16 px-4">
       <div className="max-w-6xl mx-auto">
