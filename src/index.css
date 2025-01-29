@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("font.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+:root {
+  --brown: #61411d;
+  --light: #ab7537;
+  --bg-color:#edeee6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--bg-color);
+}
